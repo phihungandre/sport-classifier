@@ -1,3 +1,8 @@
 remote_theme: pages-themes/hacker
 plugins:
   - jekyll-remote-theme
+
+title: Minimal JS Image Classifier
+description: Some basic example of client interfaces to a computer vision API
+
+author: Phi Hung André HOANG
