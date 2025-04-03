@@ -26,3 +26,6 @@ async function classifyImage(imageFile) {
     const prediction = await result.json();
     console.log("Résultat :", prediction.data);
 }
+```
+### 3. Utilisation sur le site github pages
+Une implémentation d'interface en javascript et en html a été faite en démo pour accéder à l'API, vous pouvez l'utiliser via [ce lien](https://phihungandre.github.io/sport-classifier/)
