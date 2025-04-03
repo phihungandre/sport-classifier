@@ -1,0 +1,14 @@
+<input id="photo" type="file">
+<div id="results">
+    </p>Awaiting classification...</p>
+</div>
+<script type="module">
+    import { loaded } from './classifier_interface.js';
+
+    function read() {
+        const reader = new FileReader();
+        reader.addEventListener('load', () => loaded(reader));
+        reader.readAsDataURL(photo.files[0]);
+    }
+    photo.addEventListener('input', read);
+</script>
