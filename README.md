@@ -1,6 +1,6 @@
 # Classificateur d'Images de Sport
 
-Ce projet est un classificateur d'images de sport, permettant de prédire le type de sport représenté sur une image donnée. Il est basé sur une API que j'ai créée avec [Gradio](https://gradio.app/) et déployée sur [Hugging Face Spaces](https://huggingface.co/spaces).
+Ce projet est un classificateur d'images de sport, permettant de prédire le type de sport représenté sur une image donnée. Il est basé sur une API que j'ai créée avec la librairie [Gradio](https://gradio.app/) sur python et déployée sur [Hugging Face Spaces](https://huggingface.co/spaces).
 
 ## Fonctionnalités
 
